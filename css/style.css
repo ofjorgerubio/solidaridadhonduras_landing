@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Varela+Round&display=swap');
+:root{
+	--color-azul: #30499A;
+	--color-amarillo: #FFC600;
+	
+}
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	}
+
+.header-area.sticky {
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+	background: #FFFFFF;
+}
+.header-area.sticky .navbar-default{
+	background-color: #884bdf;
+}
+
+
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Varela Round', sans-serif;
+	}
+
+
+
+
+#hero{
+	background-color: var(--color-amarillo);
+}
+
+#comoayudar{
+	padding: 50px;
+}
+
+#mision{
+	padding: 25px;
+	}
+#contactanos{
+	padding: 30px;
+}
+.titulo{
+	font-weight: 800;
+	font-size: 40px;
+	margin-top: 150px;
+}
+
+.tituloazul{
+	color: var(--color-azul);
+	font-weight: 600;
+}
+
+p{
+	font-size: 16px;
+	font-weight: 570;
+}
+
+.btn-primary{
+	background-color: white;
+	color: #000000;
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+
+
+
+footer{
+	background-color: var(--color-bg-footer);
+	padding: 40px 0;
+	text-align: center;
+}
+footer span{
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
